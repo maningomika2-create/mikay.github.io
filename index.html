@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Mika Maningo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-pink-100">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold bg-gradient-to-r from-pink-600 to-rose-500 bg-clip-text text-transparent">Portfolio</a>
+            <div class="flex space-x-8 font-medium text-slate-600">
+                <a href="index.html" class="hover:text-pink-600 transition-colors">About</a>
+                <a href="projects.html" class="hover:text-pink-600 transition-colors">Projects</a>
+                <a href="contact.html" class="hover:text-pink-600 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="max-w-6xl mx-auto px-6 py-20">
+        <div class="flex flex-col md:flex-row items-center gap-16 mb-32">
+            <div class="w-full md:w-1/2">
+                <span class="text-slate-600 font-semibold tracking-wide uppercase text-sm">Hello, I'm</span>
+                <h1 class="text-6xl font-extrabold mt-2 mb-6 text-pink-600 leading-tight">
+                    Mika<br> Maningo
+                </h1>
+                <p class="text-xl text-slate-600 leading-relaxed mb-8">
+                    I am a BSIT 2A student from Davao del Norte State Colleges. I am eager to learn and grow in web development. I love turning ideas into digital reality and am currently building my foundation in creating intuitive user experiences.
+                </p>
+                <a href="contact.html" class="inline-flex items-center px-8 py-4 bg-slate-900 text-white font-semibold rounded-xl hover:bg-pink-600 transition-all duration-300 transform hover:-translate-y-1 shadow-xl shadow-pink-100">
+                    Let's Collaborate
+                </a>
+            </div>
+            <div class="w-full md:w-1/2">
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-pink-500 to-rose-400 rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                    <div class="relative h-96 bg-white border border-pink-100 rounded-2xl flex items-center justify-center text-pink-300 overflow-hidden shadow-2xl">
+                        <img src="portpic.jpg" alt="Mika Maningo" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <h2 id="tech-stack" class="text-4xl font-bold mb-16 text-center text-slate-900">What I'm Learning</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-8 bg-white rounded-3xl border border-slate-100 hover:border-pink-200 transition-all duration-500 hover:shadow-2xl hover:shadow-pink-500/10 hover:-translate-y-2">
+                <div class="w-12 h-12 bg-pink-50 rounded-xl flex items-center justify-center text-pink-600 mb-6 font-bold">01</div>
+                <h3 class="text-xl font-bold mb-3 text-slate-900">Frontend Fundamentals</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    I specialize in building clean, responsive interfaces. I use HTML and CSS for structure and styling, and React to create dynamic, component-based web applications that look great on any device.
+                </p>
+            </div>
+            
+          <div class="p-8 bg-white rounded-3xl border border-slate-100 hover:border-pink-200 transition-all duration-500 hover:shadow-2xl hover:shadow-pink-500/10 hover:-translate-y-2">
+                <div class="w-12 h-12 bg-pink-50 rounded-xl flex items-center justify-center text-pink-600 mb-6 font-bold">02</div>
+                <h3 class="text-xl font-bold mb-3 text-slate-900">Backend & Networking</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Studying the fundamental request-response cycle and how information travels across networks. I am exploring how server-side logic processes data to support dynamic systems and maintain the integrity of information exchange.
+                </p>
+            </div>
+            
+           <!-- Backend & Programming Logic (Java) -->
+            <div class="p-8 bg-white rounded-3xl border border-slate-100 hover:border-pink-200 transition-all duration-500 hover:shadow-2xl hover:shadow-pink-500/10 hover:-translate-y-2">
+                <div class="w-12 h-12 bg-pink-50 rounded-xl flex items-center justify-center text-pink-600 mb-6 font-bold">03</div>
+                <h3 class="text-xl font-bold mb-3 text-slate-900">Software Logic & Java</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Developing a strong foundation in <strong>Object-Oriented Programming (OOP)</strong> using Java. I focus on writing clean, modular code, understanding algorithms, and implementing logical structures that serve as the backbone for robust software applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-slate-100 py-12 mt-20">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <p class="text-slate-500 text-sm">
+                    &copy; 2026 Mika Maningo. Built with passion.
+                </p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="https://github.com/maningomika2-create" target="_blank" class="text-slate-400 hover:text-pink-600 transition-colors">GitHub</a>
+                <a href="https://www.linkedin.com/in/myka-maningo-46bb96411/" target="_blank" class="text-slate-400 hover:text-pink-600 transition-colors">LinkedIn</a>
+                <a href="https://twitter.com/yourhandle" target="_blank" class="text-slate-400 hover:text-pink-600 transition-colors">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
